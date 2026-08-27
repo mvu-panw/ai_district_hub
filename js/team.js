@@ -94,7 +94,7 @@ const TEAM_GROUPS = [
       },
       {
         name: "Shweta Kondvilkar",
-        file: "shweta.png",
+        file: "shweta.jpg",
         profile: "https://app.glean.com/directory/people/profile?person=6BF83141B2732690D15C8C367F95A608",
       },
       {
