@@ -381,6 +381,14 @@ a { color: inherit; }
   padding: 0 32px;
 }
 
+.embed-wrap--wide { max-width: 1440px; }
+
+.embed-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+
 .embed-frame {
   position: relative;
   border: 1px solid var(--panel-border);
@@ -389,6 +397,8 @@ a { color: inherit; }
   background: var(--bg-elevated);
   aspect-ratio: 16 / 10;
 }
+
+.embed-frame--tall { aspect-ratio: 4 / 3; }
 
 .embed-frame iframe {
   width: 100%;
